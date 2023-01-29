@@ -20,7 +20,8 @@ makedepends=(extra-cmake-modules-git qt5-base)
 #sha256sums=('2f747c4daf561306b25c347cb3a716bec32093ab8bd3e3ab8fbceed89981eec7'
 #            'SKIP')
 #validpgpkeys=(53E6B47B45CEA3E0D5B7457758D0EE648A48B3BB) # David Faure <faure@kde.org>
-source=("git+https://invent.kde.org/frameworks/${pkgname%-git}5.git")
+#source=("git+https://invent.kde.org/frameworks/${pkgname%-git}5.git")
+source=("git+https://github.com/KDE/${pkgname%-git}5#branch=kf5")
 sha256sums=('SKIP')
 
 pkgver() {
